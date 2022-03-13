@@ -8,6 +8,7 @@
 
 - Nessa api você pode pesquisar informações de planetas, metéoros, fenómenos relacionados a astronomia🌏
 - Normalmente ás respostas se baseia em imagens, descrições e datas
+- Essa é uma api que faz request a outra api, por isso o idioma das respostas vão estár por padrão em inglês
 
 ## EndPoints
 
@@ -20,7 +21,7 @@ API tem no total 5 endpoints, como:
 
 A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 
-## Picture of the Day
+## Imagem premiada
 
 `GET /nasa/day - FORMATO DA RESPOSTA - STATUS 200`
 
@@ -40,7 +41,7 @@ A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 
 `GET /nasa/search/:value - FORMATO DA RESPOSTA - STATUS 200`
 
-- Obs: Deve ser levado em conta a pesquisa tem que ser feito em inglês e sem palavras compostas.  
+- Obs: Deve ser levado em conta o idioma padrão nas pesquisar e sem palavras compostas.  
 - Ex: https://kenzinhosnasaapi.herokuapp.com/nasa/search/moon
 
 ```json
