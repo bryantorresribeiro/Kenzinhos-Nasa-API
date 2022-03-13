@@ -18,13 +18,13 @@ API tem no total 5 endpoints, como:
 - Obter um foto aleatória de alguma região de Marte👽
 - Pesquisa por data e obter uma imagem de Marte daquele dia👽
 
-A url base da API é: `url`
+A url base da API é: https://kenzinhosnasaapi.herokuapp.com/`
 
 ## Picture of the Day
 
 `GET /nasa/day - FORMATO DA RESPOSTA - STATUS 200`
 
-- Ex: 
+- Ex: https://kenzinhosnasaapi.herokuapp.com/nasa/day 
 
 ```json
 {
@@ -41,7 +41,7 @@ A url base da API é: `url`
 `GET /nasa/search/:value - FORMATO DA RESPOSTA - STATUS 200`
 
 - Obs: Deve ser levado em conta a pesquisa tem que ser feito em inglês e sem palavras compostas.  
-- Ex:
+- Ex: https://kenzinhosnasaapi.herokuapp.com/nasa/search/moon
 
 ```json
 {
@@ -56,7 +56,7 @@ A url base da API é: `url`
 `GET /nasa/:initialDate/:finalDate - FORMATO DA RESPOSTA - STATUS 200`
 
 - Obs: Se você fizer a pesquisa por um intervalo muito longo a api ira demorar ou não ira te devolver uma reposta.
-- Ex:
+- Ex: https://kenzinhosnasaapi.herokuapp.com/nasa/2019-01-01/2019-01-02
 - Formato de data: YY-MM-DD
 
 ```json
@@ -86,7 +86,7 @@ A url base da API é: `url`
 ## Obter um foto aleatória de alguma região de Marte
 
 `GET /RamdomMars - FORMATO DA RESPOSTA - STATUS 200`
-- Ex:
+- Ex: https://kenzinhosnasaapi.herokuapp.com/RamdomMars
 
 ```json
 {
@@ -99,7 +99,7 @@ A url base da API é: `url`
 
 `GET /SearchMars/:initialDate - FORMATO DA RESPOSTA - STATUS 200`
 
-- Ex:
+- Ex: https://kenzinhosnasaapi.herokuapp.com/SearchMars/2020-01-01
 - Formato de data: YY-MM-DD
 
 ```json

@@ -4,7 +4,7 @@ const api = require('../services/api')
 class Controllers{
 
     static welcome(req, res){
-        res.send("Documentação da api: https://github.com/bryantorresribeiro/Express-API")
+        res.send("Documentação da api: https://github.com/bryantorresribeiro/Kenzinhos-Nasa-API")
     }
 
     static day(req, res){

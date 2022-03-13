@@ -1,5 +1,8 @@
 {
   "name": "Kenzinhos-Nasa-API",
+  "scripts": {
+    "start": "node src/server.js"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:bryantorresribeiro/Kenzinhos-Nasa-API.git",
