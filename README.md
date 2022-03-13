@@ -18,7 +18,7 @@ API tem no total 5 endpoints, como:
 - Obter um foto aleatória de alguma região de Marte👽
 - Pesquisa por data e obter uma imagem de Marte daquele dia👽
 
-A url base da API é: https://kenzinhosnasaapi.herokuapp.com/`
+A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 
 ## Picture of the Day
 
