@@ -7,16 +7,16 @@
 🚨 Atenção essa é uma api intermediária que utiliza a api original: https://api.nasa.gov
 
 - Nessa api você pode pesquisar informações de planetas, metéoros, fenómenos relacionados a astronomia.
-- Normalmente ás respostas se baseia em imagens, descrições e datas.
+- Normalmente ás respostas se baseia em imagens, descrições, autoria e datas.
 - Essa é uma api que faz request a outra api, por isso o idioma das respostas vão estár por padrão em inglês.
 
 ## EndPoints
 
 API tem no total 5 endpoints, como:
-- Obter uma imagem "Picture of the Day" a imagem premiada do dia🌅
+- Nasa "Picture of the Day" a imagem premiada do dia🌅
 - Fazer uma pesquisa relacionado a astronomia📎
 - Pesquisa um conjunto de informações relacionados a astronomia em um intervalo de datas🌗
-- Obter um foto aleatória de alguma região de Marte👽
+- Obter uma imagem aleatória de alguma região de Marte👽
 - Pesquisa por data e obter uma imagem de Marte daquele dia👽
 
 A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
