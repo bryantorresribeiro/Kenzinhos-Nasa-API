@@ -6,8 +6,8 @@
 
 🚨 Atenção essa é uma api intermediária que utiliza a api original: https://api.nasa.gov
 
-- Nessa api você pode pesquisar informações de planetas, metéoros fenómenos relacionados a astronomia🌏
-
+- Nessa api você pode pesquisar informações de planetas, metéoros, fenómenos relacionados a astronomia🌏
+- Normalmente ás respostas se baseia em imagens, descrições e datas
 
 ## EndPoints
 
