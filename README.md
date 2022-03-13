@@ -10,18 +10,16 @@
 - Normalmente ás respostas se baseia em imagens, descrições, autoria e datas.
 - Essa é uma api que faz request a outra api, por isso o idioma das respostas vão estár por padrão em inglês.
 
-## EndPoints
-
 API tem no total 5 endpoints, como:
 - Nasa "Picture of the Day" a imagem premiada do dia🌅
 - Fazer uma pesquisa relacionado a astronomia📎
 - Pesquisa um conjunto de informações relacionados a astronomia em um intervalo de datas🌗
 - Obter uma imagem aleatória de alguma região de Marte👽
-- Pesquisa por data e obter uma imagem de Marte daquele dia👽
+- Pesquisar uma imagem relacionado a uma data👽
 
 A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 
-## Imagem premiada
+## Imagem premiada🌅
 
 `GET /nasa/day - FORMATO DA RESPOSTA - STATUS 200`
 
@@ -37,7 +35,7 @@ A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 }
 ```
 
-## Fazer uma pesquisa
+## Fazer uma pesquisa📎
 
 `GET /nasa/search/:value - FORMATO DA RESPOSTA - STATUS 200`
 
@@ -52,7 +50,7 @@ A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 }
 ```
 
-## Conjunto de informações relacionados a astronomia por datas
+## Conjunto de informações relacionados a astronomia por datas🌗
 
 `GET /nasa/:initialDate/:finalDate - FORMATO DA RESPOSTA - STATUS 200`
 
@@ -84,7 +82,7 @@ A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 ]
 ```
 
-## Obter um foto aleatória de alguma região de Marte
+## Obter uma imagem aleatória de alguma região de Marte👽
 
 `GET /RamdomMars - FORMATO DA RESPOSTA - STATUS 200`
 - Ex: https://kenzinhosnasaapi.herokuapp.com/RamdomMars
@@ -96,7 +94,7 @@ A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 }
 ```
 
-## Pesquisa por data e obter uma imagem relacionado a Marte daquele dia
+## Pesquisar uma imagem relacionado a uma data👽
 
 `GET /SearchMars/:initialDate - FORMATO DA RESPOSTA - STATUS 200`
 
