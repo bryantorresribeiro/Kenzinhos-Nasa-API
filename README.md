@@ -15,7 +15,7 @@ API tem no total 5 endpoints, como:
 - Fazer uma pesquisa relacionado a astronomia📎
 - Pesquisa um conjunto de informações relacionados a astronomia em um intervalo de datas🌗
 - Obter uma imagem aleatória de alguma região de Marte👽
-- Pesquisar uma imagem relacionado a uma data👽
+- Pesquisar uma imagem de marte relacionado a uma data👽
 
 A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 
@@ -94,7 +94,7 @@ A url base da API é: https://kenzinhosnasaapi.herokuapp.com/
 }
 ```
 
-## Pesquisar uma imagem relacionado a uma data👽
+## Pesquisar uma imagem de marte relacionado a uma data👽
 
 `GET /SearchMars/:initialDate - FORMATO DA RESPOSTA - STATUS 200`
 
